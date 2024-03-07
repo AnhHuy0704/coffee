@@ -83,7 +83,7 @@
  
 }
 .item-3 .item-3-content:nth-child(1){
-    background-image: url(coffee/img/item_3_1.jpg);
+    background-image: url(../coffee/img/item_3_1.jpg);
     border-radius: 10px 0px 0px 10px;
 }
 .item-3 .item-3-content:nth-child(2){
