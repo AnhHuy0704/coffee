@@ -1,0 +1,134 @@
+.menu-content:nth-child(2){
+    border-bottom: 1px solid rgb(2, 1, 1,0.2);
+}
+.item-cafe-1{
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.item-cafe-1 header{
+    font-size: 25px;
+    margin-bottom:50px;
+    font-weight: bold;
+}
+.item-cafe-1 .item-cafe-1-layout{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+.item-cafe-1-layout .list-item-cafe{
+    width: 100%;
+    
+}
+.list-item-cafe .cafe-item-img{
+    width: 100%;
+ 
+    
+  
+}
+.list-item-cafe p:nth-child(2){
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cafe-item-img img{
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 2px 5px 4px rgb(4, 4, 4,0.1);
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    background-color: #0b0b0b;
+    color: white;
+    position: relative;
+}
+.footer .footer-item:nth-child(1){
+    width: 80%;
+    height: 250px;
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.footer-item:nth-child(1) .footer-item-content{
+    width: 20%;
+    padding-top: 40px;
+}
+
+.footer .footer-item:nth-child(2){
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.footer-item-content header{
+    font-size: 18px;
+}
+.footer-item-content p{
+    font-size: 14px;
+    margin-top: 10px
+}
+.footer-item-content:nth-child(3) > div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;  
+}
+.footer-item-content:nth-child(3) > div i{
+    font-size: 18px;
+}
+.footer-item-content:nth-child(3) > div p{
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 18px;
+}
+.footer-item-content .footer-fb{
+    width: 100%;
+    height:70%;
+    background-image: url(/img/aboutus_jpg01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-item-content .social-footer i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.footer-item:nth-child(2) p{
+    font-size: 14px;
+    
+}
+@media (max-width:740px){
+
+    .item-cafe-1 .item-cafe-1-layout{
+
+        grid-template-columns: 48% 48%;
+
+    }
+    .footer-item:nth-child(1) div{
+        width: 100%;
+    }
+    .footer-item-content header{
+        font-size: 15px;
+    }
+    .footer-item-content p{
+        font-size: 12px;
+        margin-top: 10px
+    }
+    .footer-item-content:nth-child(3) > div i{
+        font-size: 15px;
+    }
+    .footer-item-content:nth-child(3) > div p{
+        margin-left: 5px;
+        margin-top: 0;
+        font-size: 8px;
+    }
+
+
+}

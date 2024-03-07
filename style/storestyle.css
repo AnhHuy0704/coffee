@@ -1,0 +1,282 @@
+.store-item-1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: url(../img/aboutus_jpg01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(11, 11, 11,0.2);
+}
+.store-item-1 p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+.store-item-2{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.store-item-2 .store-item-sub:nth-child(1){
+    position: sticky;
+    top:10vh;
+    height: 50vh;
+    width: 50%;
+    left:12%;
+
+}
+.store-item-2 .store-item-sub:nth-child(1) header{
+    font-weight: bold;
+    font-size: 18px;
+}
+.store-item-2 .store-item-sub:nth-child(1) p{
+
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(15, 14, 14,0.7);
+}
+.store-item-sub:nth-child(1) > .store-area:nth-child(2){
+    color: #d77f2e;
+    font-weight: bold;
+    font-size: 17px;
+}
+.store-item-2 .store-item-sub:nth-child(1) p:hover{
+    color: #d77f2e;
+    font-weight: bold;
+}
+.store-item-2 .store-item-sub:nth-child(2){
+    border-left: 2px solid rgb(7, 7, 7,0.2);
+    padding-bottom: 50px;
+} 
+.store-item-sub:nth-child(2) header{
+    font-size: 18px;
+    font-weight:  bold;
+    width:90%;
+    left:5%;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.store-item-sub:nth-child(2) select{
+    font-size: 15px;
+    font-weight:  bold;
+    width: 30%;
+    position: relative;
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid rgb(16, 15, 15,0.2);
+    left:5%;
+   
+}
+.store-item-sub:nth-child(2) .store-detail{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.store-item-sub:nth-child(2) > input{
+    width: 20%;
+    left:40%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 40px;
+    border: 2px solid rgb(17, 16, 16,0.2);
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+}
+.store-item-sub:nth-child(2) .store-detail{
+
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+.store-detail .store-detail-sub{
+    width: 100%;
+    overflow-x: hidden;
+}
+.store-detail-sub .store-slider{
+    width: 300%;
+    display: flex;
+   
+}
+.store-slider img{
+    width: calc(100%/3);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.store-detail-sub .store-name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.store-detail-sub > input{
+    width:100%;
+    border-radius:10px;
+    height: 40px;
+    border: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.store-detail-sub .store-share{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+.store-share p{
+    font-weight: bold;
+}
+.store-share i{
+    margin-left: 20px;
+    font-size: 19px;
+}
+.store-detail-sub .store-adress{
+    width: 100%;
+    font-size: 14.5px;
+    font-weight: bold;
+}
+.store-adress p{
+    margin-bottom: 10px;
+}
+.store-item-hidden{
+    display: none;
+}
+.footer{
+    width: 100%;
+    background-color: #0b0b0b;
+    color: white;
+}
+.footer .footer-item:nth-child(1){
+    width: 80%;
+    height: 250px;
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.footer-item:nth-child(1) .footer-item-content{
+    width: 20%;
+    padding-top: 40px;
+  
+}
+
+.footer .footer-item:nth-child(2){
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.footer-item-content header{
+    font-size: 18px;
+}
+.footer-item-content p{
+    font-size: 14px;
+    margin-top: 10px
+}
+.footer-item-content:nth-child(3) > div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+.footer-item-content:nth-child(3) > div i{
+    font-size: 18px;
+}
+.footer-item-content:nth-child(3) > div p{
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 18px;
+}
+.footer-item-content .footer-fb{
+    width: 100%;
+    height:70%;
+    background-image: url(/img/aboutus_jpg01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-item-content .social-footer i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.footer-item:nth-child(2) p{
+    font-size: 14px;
+    
+}
+@media (max-width:740px) {
+    
+    .store-item-2{
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+    .store-item-sub:nth-child(1){
+        display: none;
+    }
+    .store-item-sub:nth-child(2) .store-detail{
+        grid-template-columns: 100%;
+    }
+    .footer-item:nth-child(1) div{
+        width: 100%;
+    }
+    .footer-item-content header{
+        font-size: 15px;
+    }
+    .footer-item-content p{
+        font-size: 12px;
+        margin-top: 10px
+    }
+    .footer-item-content:nth-child(3) > div i{
+        font-size: 15px;
+    }
+    .footer-item-content:nth-child(3) > div p{
+        margin-left: 5px;
+        margin-top: 0;
+        font-size: 8px;
+    }
+    .store-item-sub:nth-child(2) > input{
+        width: 50%;
+        left:25%;
+        margin-top: 50px;
+    }
+    .store-item-hidden{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 50px;
+       
+    }
+    .store-item-hidden select{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+
+}

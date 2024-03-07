@@ -1,0 +1,61 @@
+.cloudfee-item-1 {
+  width: 100%;
+}
+
+.cloudfee-item-1 img {
+  width: 100%;
+}
+
+.cloudfee-item-2 {
+  height: 2000px;
+  background-image: url(../img/cloudfee_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(1, 1, 1, 0.8);
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+.baner_cloudfee {
+  width: 40%;
+  position: sticky;
+  top: 90vh;
+  margin: 0 auto;
+}
+
+.baner_cloudfee a {
+  width: 100%;
+}
+
+.baner_cloudfee a img {
+  width: 100%;
+}
+
+.baner_cloudfee i {
+  position: absolute;
+  color: rgb(4, 4, 4);
+  font-size: 16px;
+  right: 2%;
+  top: 15%;
+}
+
+.bremecrulee {
+  font-size: 100px;
+  color: white;
+  position: relative;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.bremecrulee2 {
+  font-size: 100px;
+  color: white;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=cloudfee.css.map */

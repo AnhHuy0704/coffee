@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+body{
+   
+   overflow-x: hidden;
+
+}
+
+.item-1{
+   width: 30%;
+   position: sticky;
+   top:60px;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+}
+.item-1 .item-1-content{
+    
+    width: 50%;
+    position: relative;
+    left: 50%;
+       
+}
+.item-1-content .item-1-sub{
+
+    padding-left: 20px;
+    display: none;
+    
+}
+.item-1-content header{
+    padding-top: 10px;
+    font-family: 'Oxygen', sans-serif;
+   
+   
+}
+.item-1-content header i{
+    margin-right: 10px;
+    display: none;
+    color: pink;
+   
+}
+.item-1-sub  li{
+    padding-top: 10px;
+    color:black;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+.item-mobile{
+    display: none;
+}
+.item-2{
+   width: 70%;
+   position:relative;
+   left: 30%;   
+   border-left:3px solid rgb(6, 6, 6,0.1) ;
+}
+.item-2 .item-2-content{
+    width: 100%;
+}
+.item-2-content header{
+    font-size: 25px;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+}
+.item-2-content .item-2-list{
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    width: 90%;
+    column-gap: 35px;
+    row-gap: 20px;
+    margin: 0 auto;
+    padding-bottom: 30px;  
+}
+.item-2-list img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px rgb(7, 7, 7,0.5);
+}
+.item-2-list p:nth-child(2){
+
+    font-weight: bold;
+    padding-top: 18px;
+    font-size: 18px;
+    
+}
+
+.footer{
+    width: 100%;
+    background-color: #0b0b0b;
+    color: white;
+    position: relative;
+   
+}
+.footer .footer-item:nth-child(1){
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.footer-item:nth-child(1) .footer-item-content{
+    width: 20%;
+    padding-top: 40px;
+}
+
+.footer .footer-item:nth-child(2){
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.footer-item-content header{
+    font-size: 18px;
+}
+.footer-item-content p{
+    font-size: 14px;
+    margin-top: 10px
+}
+.footer-item-content:nth-child(3) > div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;  
+}
+.footer-item-content:nth-child(3) > div i{
+    font-size: 18px;
+}
+.footer-item-content:nth-child(3) > div p{
+    margin-left: 5px;
+    margin-top: 0;
+    font-size: 18px;
+}
+.footer-item-content .footer-fb{
+    width: 100%;
+    height:70%;
+    background-image: url(/img/aboutus_jpg01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-item-content .social-footer i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.footer-item:nth-child(2) p{
+    font-size: 14px;
+}
+@media (max-width:740px){
+    #item-container{
+
+        background-color: #02020210;
+
+    }
+    .item-1 {
+        display: none;
+    }
+    .item-2{
+        width: 100%;
+        left: 0;
+        margin-top: 30px;
+     
+        padding-top: 50px;
+        padding-bottom:20px ;
+    }
+    .item-2-content .item-2-list{
+        grid-template-columns: 45% 45%;
+        row-gap: 20px;
+    }
+    .item-mobile{
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: sticky;
+        top:0;
+        margin-top: 0;
+        z-index: 1002;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        
+    }
+    .item-mobile select{
+        width: 90%;
+        height: 70%;
+        border: 2px solid rgb(9, 9, 9,0.2);
+        border-radius: 10px;
+        font-size: 16px;
+        padding-left: 17px;
+        font-weight: bold;
+        
+    }
+    .item-mobile select option{
+        font-weight: bold;
+    }
+    .footer-item:nth-child(1) div{
+        width: 100%;
+    }
+    .footer-item-content header{
+        font-size: 15px;
+    }
+    .footer-item-content p{
+        font-size: 12px;
+        margin-top: 10px
+    }
+    .footer-item-content:nth-child(3) > div i{
+        font-size: 15px;
+    }
+    .footer-item-content:nth-child(3) > div p{
+        margin-left: 5px;
+        margin-top: 0;
+        font-size: 8px;
+    }
+
+}
