@@ -83,7 +83,7 @@
  
 }
 .item-3 .item-3-content:nth-child(1){
-    background-image: url(/img/item_3_1.jpg);
+    background-image: url("../img/item3_1.jpg");
     border-radius: 10px 0px 0px 10px;
 }
 .item-3 .item-3-content:nth-child(2){
@@ -92,7 +92,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(/img/bg2_png02.jpg);
+    background-image: url("../img/bg2_png02.jpg");
     border-radius: 0px 10px 10px 0px;
     background-color: rgb(255, 255, 255,0.6);
     background-blend-mode:overlay;
@@ -178,7 +178,7 @@
 .item-4-contetnt .item-4-subcontent{
     width: calc(100%/3);
    
-    background-image: url(/img/item_4_bg.jpg);
+    background-image: url(..../img/item_4_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -263,7 +263,7 @@
 .item-4-slide-container .item-4-listitem{
     width: calc(100%/3);
     height: 100%;
-    background-image: url(/img/aboutus_jpg01.jpg);
+    background-image: url(../img/aboutus_jpg01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -324,55 +324,55 @@
 }
 .item-5-content:nth-child(2) .item-5-sub-content:nth-child(1) .item-5-img{
   
-    background-image: url(/img/aboutus_jpg01.jpg);
+    background-image: url(../img/aboutus_jpg01.jpg);
  
 
 }
 .item-5-content:nth-child(2) .item-5-sub-content:nth-child(2) .item-5-img{
   
-    background-image: url(/img/aboutus_jpg02.jpg);
+    background-image: url(../img/aboutus_jpg02.jpg);
  
 
 }
 .item-5-content:nth-child(2) .item-5-sub-content:nth-child(3) .item-5-img{
   
-    background-image: url(/img/aboutus_jpg03.jpg);
+    background-image: url(../img/aboutus_jpg03.jpg);
  
 
 }
 .item-5-content:nth-child(3) .item-5-sub-content:nth-child(1) .item-5-img{
   
-    background-image: url(/img/item-5_2.jpg);
+    background-image: url(../img/item-5_2.jpg);
  
 
 }
 .item-5-content:nth-child(3) .item-5-sub-content:nth-child(2) .item-5-img{
   
-    background-image: url(/img/item-5_3.jpg);
+    background-image: url(../img/item-5_3.jpg);
  
 
 }
 .item-5-content:nth-child(3) .item-5-sub-content:nth-child(3) .item-5-img{
   
-    background-image: url(/img/item-5_4.jpg);
+    background-image: url(../img/item-5_4.jpg);
  
 
 }
 .item-5-content:nth-child(4) .item-5-sub-content:nth-child(1) .item-5-img{
   
-    background-image: url(/img/item-5_5.jpg);
+    background-image: url(../img/item-5_5.jpg);
  
 
 }
 .item-5-content:nth-child(4) .item-5-sub-content:nth-child(2) .item-5-img{
   
-    background-image: url(/img/item-5_6.jpg);
+    background-image: url(../img/item-5_6.jpg);
  
 
 }
 .item-5-content:nth-child(4) .item-5-sub-content:nth-child(3) .item-5-img{
   
-    background-image: url(/img/item-5_7.jpg);
+    background-image: url(../img/item-5_7.jpg);
  
 
 }
@@ -452,7 +452,7 @@
 .footer-item-content .footer-fb{
     width: 100%;
     height:70%;
-    background-image: url(/img/aboutus_jpg01.jpg);
+    background-image: url(../img/aboutus_jpg01.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
